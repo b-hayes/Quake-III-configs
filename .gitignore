@@ -1,0 +1,11 @@
+# I initialized a git repo in here to be able to track and restore changes to config files.
+
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!*.cfg
+
+# ...even if they are in subdirectories
+!*/
