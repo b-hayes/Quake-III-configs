@@ -20,6 +20,11 @@ Most helper scripts you for quickly setting up widescreen resolutions.
 Bring the console down with `~` and type `/exec scriptName` to run them. Pick the resolution you want and
 when happy press alt+enter to go fullscreen if you are still in windowed mode from first launch.
 
+The `fhdbox` custom 4:3 res works great as most modern screens will run this with black bars on the side
+instead of stretching it when run in fullscreen.
+
+### Reset
+
 - `/exec hd` Return to 4:3 720p resolution that the base config starts with.
 
 #### Custom resolutions for modern standards.
@@ -39,7 +44,7 @@ Recommended fov of about 134/135 for these. Only made one for 1440p so far.
 #### Custom 4:3 resolutions
 Keep the games original look and feel while still using the max DPI of your screen.
 
-- `/exec fhdbox` 1080p but with 4:3 aspect.    
+- `/exec fhdbox` 1080p but with 4:3 aspect (recommended).    
 - `/exec qhdbox` 1440p but with 4:3 aspect.
 - `/exec 4kbox` 2160p but with 4:3 aspect.
 
