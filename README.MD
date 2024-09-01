@@ -5,27 +5,19 @@ My recommended configs for Quake III Arena.
 ## Base config.
 The file `q3config.cfg` is set up for the best new player experience instead of my own personal settings.
 
-- Game launches in the 4:3 aspect ratio in windowed mode and plays the intro video.
+- Game starts in the highest 4:3 resolution that a 1080p screen natively supports with black bars on the side.
+- Intro video plays.
 - FPS is set to 125 because this exact number increases jump height and strafe jumping through an engine glitch.
 - Keybindings are set as:
   - direct access to each weapon, 1,2,3,q,e,r,f,c,x.
   - rmb for zoom, and thumb button for items.
   - space for jump, ctrl for duck, g for gesture.
   - enter/t chat, y, u, i for other chats commands.
-- configs for included mods deleted so that after playing base game mods will adopt the same setup.
+- configs for included mods deleted so they inherit this config after player customizes it for base game.
 
 # Helper scripts
-Most helper scripts you for quickly setting up widescreen resolutions.
-
-Bring the console down with `~` and type `/exec scriptName` to run them. Pick the resolution you want and
-when happy press alt+enter to go fullscreen if you are still in windowed mode from first launch.
-
-The `fhdbox` custom 4:3 res works great as most modern screens will run this with black bars on the side
-instead of stretching it when run in fullscreen.
-
-### Reset
-
-- `/exec hd` Return to 4:3 720p resolution that the base config starts with.
+For quickly setting up widescreen resolutions.
+Bring the console down with `~` and type `/exec scriptName` to run them.
 
 #### Custom resolutions for modern standards.
 Force the game to use widescreen but breaks videos, stretches the hu/UI and moves the gun down lower.
