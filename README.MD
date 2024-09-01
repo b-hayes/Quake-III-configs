@@ -29,9 +29,11 @@ Force the game to use widescreen but breaks videos, stretches the hu/UI and move
 You need to increase the fov when using widescreen eg: `/cg_fov 110`.
 
 #### Ultra-wide screens.
-Recommended fov of about 134/135 for these. Only made one for 1440p so far.
+Recommended fov of about `/cg_fov 134` for these.
 
+- `/exec uwfhd`  1080p but with ultra-wide 21:9 aspect.
 - `/exec uwqhd`  1440p but with ultra-wide 21:9 aspect.
+- `/exec uw4k`  2160p (4k equivilent) but with ultra-wide 21:9 aspect.
 
 #### Custom 4:3 resolutions
 Keep the games original look and feel while still using the max DPI of your screen.
