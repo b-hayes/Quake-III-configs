@@ -1,12 +1,14 @@
 # I initialized a git repo in here to be able to track and restore changes to config files.
 
-# Ignore everything
+# Ignore everything in the Quake III game folder
 *
 
 # But not these files...
 !README.MD
 !.gitignore
 !*.cfg
+!arena/ra3_server.bat
+!arena/ra3_server.sh
 
 # ...even if they are in subdirectories
 !*/
