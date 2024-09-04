@@ -61,3 +61,13 @@ Recommended `/cg_fov 100` will be set for these.
 - `/exec 4kbox` 2160p but with 4:3 aspect.
 
 Recommend `/cg_fov 100` or the default of 90 in these resolutions.
+
+### Brightness hack.
+It's better if you can stick to `/r_gamma 1` and then adjust your monitors black stabilizer settings, gamma, or even just brightness.
+
+If your game is too dark and you just cant fix it then use the brightness hack.
+
+- `/exec brightness` adjusts gamma to 1.3, overbirghtbits 0 & mapoverbrightbits to 1.
+
+You can increase gamma further if you want after that.
+`/r_gamma` higher than 1 will now work at the cost of dynamic lighting quality.
