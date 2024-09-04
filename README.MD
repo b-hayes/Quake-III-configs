@@ -7,38 +7,55 @@ The file `q3config.cfg` is set up for the best new player experience instead of 
 
 - Game starts in the highest 4:3 resolution that a 1080p screen natively supports with black bars on the side.
 - Intro video plays.
-- FPS is set to 125 because this exact number increases jump height and strafe jumping through an engine glitch.
+- FPS is set to 334/500. Highest FPS with the advantage of physics rounding.
+- sv_fps and snaps of 125 so the high fps doesn't jitter.
+- no gamma/brightness fixes. (believe its better use your monitor settings to compensate instead).
 - Keybindings are set as:
   - direct access to each weapon, 1,2,3,q,e,r,f,c,x.
   - rmb for zoom, and thumb button for items.
   - space for jump, ctrl for duck, g for gesture.
   - enter/t chat, y, u, i for other chats commands.
-- configs for included mods deleted so they inherit this config after player customizes it for base game.
+
+Delete configs for mods, so they inherit the base config after you customizes it.
 
 # Helper scripts
-For quickly setting up widescreen resolutions.
+For quickly switching up resolutions and FPS settings.
 Bring the console down with `~` and type `/exec scriptName` to run them.
 
-#### Custom resolutions for modern standards.
-Force the game to use widescreen but breaks videos, stretches the hu/UI and moves the gun down lower.
+### FPS
+The lower settings may be needed for online servers.
+500 is for LAN / Custom servers.
+- `/exec 125` classic 125fps and snaps set to 30.
+- `/exec 333` 333 fps and snaps set to 40.
+- `/exec 500` 500 fps and snaps set to 125.
+
+sv_fps should always be 125 in case you host a LAN game.
+Other joining need the higher server setting to use 500 fps without jitter.
+
+### Resolutions.
+This is what the main config starts with.
+- `/exec mode9` set 1600x1200 4:3 with `/cg_fov 100`
+
+#### Wide screen.
+Force the game to use widescreen but breaks videos, stretches the hu/UI and moves the gun down out of view.
+Recommended `/cg_fov 115` is set for these.
 
 - `/exec fhd` 1080p widescreen.
 - `/exec qhd` 1440p widescreen.
 - `/exec 4k` 2160p widescreen.
 
-You need to increase the fov when using widescreen eg: `/cg_fov 110`.
-
 #### Ultra-wide screens.
-Recommended fov of about `/cg_fov 134` for these.
+Recommended `/cg_fov 134` will be set for these.
 
 - `/exec uwfhd`  1080p but with ultra-wide 21:9 aspect.
 - `/exec uwqhd`  1440p but with ultra-wide 21:9 aspect.
-- `/exec uw4k`  2160p (4k equivilent) but with ultra-wide 21:9 aspect.
+- `/exec uw4k`  2160p (4k equivalent) but with ultra-wide 21:9 aspect.
 
 #### Custom 4:3 resolutions
-Keep the games original look and feel while still using the max DPI of your screen.
+Keep the games original 4:# aspect while still using the max DPI of your screen.
+Recommended `/cg_fov 100` will be set for these.
 
-- `/exec fhdbox` 1080p but with 4:3 aspect (recommended).    
+- `/exec fhdbox` 1080p but with 4:3 aspect.    
 - `/exec qhdbox` 1440p but with 4:3 aspect.
 - `/exec 4kbox` 2160p but with 4:3 aspect.
 
