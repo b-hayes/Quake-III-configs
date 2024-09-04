@@ -32,6 +32,7 @@ The lower settings may be needed for online servers.
 - `/exec 500` 500 fps and snaps set to 125.
 
 sv_fps should always be 125 in case you host a LAN game or play single player at 500 fps.
+The higher the fps the higher the sv_fps and snaps need to be or your high FPS will just look/feel jittery/choppy.
 
 ### Resolutions.
 This is what the main config starts with.
