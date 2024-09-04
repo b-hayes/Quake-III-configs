@@ -39,7 +39,7 @@ This is what the main config starts with.
 - `/exec mode9` set 1600x1200 4:3 with `/cg_fov 100`
 
 #### Wide screen.
-Force the game to use widescreen but breaks videos, stretches the hu/UI and moves the gun down out of view.
+Force the game to use widescreen but breaks videos, stretches the hud/UI and moves the gun down out of view.
 Recommended `/cg_fov 115` is set for these.
 
 - `/exec fhd` 1080p widescreen.
