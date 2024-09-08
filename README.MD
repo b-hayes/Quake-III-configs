@@ -26,15 +26,23 @@ The file `q3config.cfg` is set up for the best new player experience instead of 
 For quickly switching up resolutions and FPS settings.
 Bring the console down with `~` and type `/exec scriptName` to run them.
 
-### FPS
-The lower settings may be needed for online servers.
+### FPS and network settings needed to support them.
+The higher the fps the higher the sv_fps and snaps need to prevent high FPS being jittery/choppy.
+
 500 is for LAN / Custom servers.
 - `/exec 125` classic 125fps and snaps set to 30.
 - `/exec 333` 333 fps and snaps set to 40 (recommended).
-- `/exec 500` 500 fps and snaps set to 125 (smooth as silk + super jumps, but can be a disadvantage if connecting to another server).
+- `/exec 500` 500 fps and snaps set to 125 (smooth as silk + super jumps but can also be a disadvantage).
 
-sv_fps should always be 125 in case you host a LAN game or play single player at 500 fps.
-The higher the fps the higher the sv_fps and snaps need to be or your high FPS will just look/feel jittery/choppy.
+Note that `/sv_fps 125` is set for all of these in case you host a LAN game and want others to use high FPS too.
+
+The lower settings may be needed for online servers, they might kick you for having snaps too high,
+or force snaps/rate/max packets to be restricted to a maximum.
+
+500 fps feels great to play one but sometimes can be a hindrance as well.
+Jump pads might throw you too far, you might bash your head into the roof jumping in corridors etc.
+Servers you connect to may not register your movements at this high rate putting you at a
+disadvantage compared to those using 333 or 125.
 
 ### Resolutions.
 This is what the main config starts with.
@@ -57,13 +65,11 @@ Recommended `/cg_fov 134` will be set for these.
 
 #### Custom 4:3 resolutions
 Keep the games original 4:3 aspect while still using the max DPI of your screen.
-Recommended `/cg_fov 100` will be set for these.
+Recommended `/cg_fov 100` will be set for these. Might not put black bars in, depends on your monitor.
 
 - `/exec fhdbox` 1080p but with 4:3 aspect.    
 - `/exec qhdbox` 1440p but with 4:3 aspect.
 - `/exec 4kbox` 2160p but with 4:3 aspect.
-
-Recommend `/cg_fov 100` or the default of 90 in these resolutions.
 
 ### Brightness hack.
 It's better if you can stick to `/r_gamma 1` and then adjust your monitors black stabilizer settings, gamma, or even just brightness.
