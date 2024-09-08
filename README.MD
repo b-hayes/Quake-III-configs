@@ -11,7 +11,7 @@ The file `q3config.cfg` is set up for the best new player experience instead of 
 
 - Game starts in the highest 4:3 resolution that a 1080p screen natively supports with black bars on the side.
 - Intro video plays.
-- FPS is set to 334/500. Highest FPS with the advantage of physics rounding.
+- FPS is set to 333. Best FPS to balance pros and cons of Physics Rounding.
 - sv_fps and snaps set to 125 so the high fps doesn't jitter.
 - no gamma/brightness fixes. (believe its better use your monitor settings to compensate instead).
 - Keybindings are set as:
