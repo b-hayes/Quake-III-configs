@@ -13,6 +13,8 @@ The file `q3config.cfg` is set up for the best new player experience instead of 
 - Intro video plays.
 - FPS is set to 333. Best FPS to balance pros and cons of Physics Rounding.
 - sv_fps and snaps set to 125 so the high fps doesn't jitter.
+- rate is 50000
+- max_packets is 125
 - no gamma/brightness fixes. (believe its better use your monitor settings to compensate instead).
 - Keybindings are set as:
   - direct access to each weapon, 1,2,3,q,e,r,f,c,x.
@@ -28,8 +30,8 @@ Bring the console down with `~` and type `/exec scriptName` to run them.
 The lower settings may be needed for online servers.
 500 is for LAN / Custom servers.
 - `/exec 125` classic 125fps and snaps set to 30.
-- `/exec 333` 333 fps and snaps set to 40.
-- `/exec 500` 500 fps and snaps set to 125.
+- `/exec 333` 333 fps and snaps set to 40 (recommended).
+- `/exec 500` 500 fps and snaps set to 125 (smooth as silk + super jumps, but can be a disadvantage if connecting to another server).
 
 sv_fps should always be 125 in case you host a LAN game or play single player at 500 fps.
 The higher the fps the higher the sv_fps and snaps need to be or your high FPS will just look/feel jittery/choppy.
